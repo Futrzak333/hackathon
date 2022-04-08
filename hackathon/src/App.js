@@ -140,6 +140,18 @@ function App() {
               the creator, etc. Make it short and sweet, but not too short so folks
               don&apos;t simply skip over it entirely.
             </Typography>
+            <div>
+              <h1>Bookkeeper</h1>
+              <nav
+                style={{
+                  borderBottom: "solid 1px",
+                  paddingBottom: "1rem",
+                }}
+              >
+                <a href="/szukaj">Szukaj</a> | {" "}
+                <a href="/poszukuje">Poszukaj</a>
+              </nav>
+            </div>
             <Stack
               sx={{ pt: 4 }}
               direction="row"
