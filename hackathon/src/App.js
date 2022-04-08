@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './routes/Account.css';
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Button from '@mui/material/Button';
@@ -22,6 +23,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import { styled, alpha } from '@mui/material/styles';
 import InputBase from '@mui/material/InputBase';
+import './routes/Account.js';
+
 
 function Copyright() {
   return (
