@@ -148,8 +148,11 @@ function App() {
                   paddingBottom: "1rem",
                 }}
               >
-                <a href="/szukaj">Szukaj</a> | {" "}
-                <a href="/poszukuje">Poszukaj</a>
+                <a href="/repseek">Report seeker</a> | {" "}
+                <a href="/repmiss">Report missing</a> | {" "}
+                <a href="/search">Search</a> | {" "}
+                <a href="/account">Account</a> | {" "}
+                <a href="/map">Map</a> | {" "}
               </nav>
             </div>
             <Stack
