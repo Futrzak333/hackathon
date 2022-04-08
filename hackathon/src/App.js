@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Pierwsza zmiana lsksks
+          oki oki
         </p>
         <a
           className="App-link"
