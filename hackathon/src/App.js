@@ -96,49 +96,15 @@ function App() {
             aria-label="open drawer"
             sx={{ mr: 2 }}
           >
-            Zglosc zaginiecie
+            <MenuIcon />
           </IconButton>
-
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="open drawer"
-            sx={{ mr: 2 }}
+          <Typography
+            variant="h6"
+            noWrap
+            component="div"
+            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            Zglosc osob szukajaca rodziny
-          </IconButton>
-
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="open drawer"
-            sx={{ mr: 2 }}
-          >
-            Mapa
-          </IconButton>
-
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="open drawer"
-            sx={{ mr: 2 }}
-          >
-            Konto
-          </IconButton>
-
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="open drawer"
-            sx={{ mr: 2 }}
-          >
-            Szukanie osoby
-          </IconButton>
-
+          </Typography>
           <Search>
             <SearchIconWrapper>
               <SearchIcon />
