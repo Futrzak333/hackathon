@@ -45,7 +45,7 @@ function App() {
         <Toolbar>
           <CameraIcon sx={{ mr: 2 }} />
           <Typography variant="h6" color="inherit" noWrap>
-            Find your familly
+            Menu
           </Typography>
         </Toolbar>
       </AppBar>
@@ -66,7 +66,7 @@ function App() {
               color="text.primary"
               gutterBottom
             >
-              Album layout
+              Find your relatives
             </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
               Something short and leading about the collection below—its contents,
