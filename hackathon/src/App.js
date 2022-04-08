@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Button from '@mui/material/Button';
-import CameraIcon from '@mui/icons-material/PhotoCamera';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -148,8 +146,7 @@ function App() {
                   paddingBottom: "1rem",
                 }}
               >
-                <a href="/repseek">Report seeker</a> | {" "}
-                <a href="/repmiss">Report missing</a> | {" "}
+                <a href="/report">Report case</a> | {" "}
                 <a href="/search">Search</a> | {" "}
                 <a href="/account">Account</a> | {" "}
                 <a href="/map">Map</a> | {" "}
