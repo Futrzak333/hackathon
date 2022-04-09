@@ -26,6 +26,7 @@ const Navbar = ({toggle}) => {
     <>
     <IconContext.Provider value={{color: '#fff'}}>
     <Nav scrollNav={scrollNav}>
+        <NavbarContainer>
       <NavLogo to = '/' onClick={toggleHome}>
         Jak to nazwać?
         </NavLogo>
@@ -54,7 +55,7 @@ const Navbar = ({toggle}) => {
           exact='true'
           offset={-80}
           >
-            Map
+            Activities map
             </NavLinks>
             </NavItem>
             <NavItem>
@@ -78,16 +79,16 @@ const Navbar = ({toggle}) => {
           exact='true'
           offset={-80}
           >
-            Sign Up                        
+            Sign up                        
             </NavLinks>
         </NavItem>
 
         <NavBtn>
-                    <NavBtnLink to="/signin">Sign In</NavBtnLink>
+                    <NavBtnLink to="/signin">Log in</NavBtnLink>
                 </NavBtn>
-
+                
       </NavMenu>
-
+      </NavbarContainer>
     </Nav>
     </IconContext.Provider>
     </>

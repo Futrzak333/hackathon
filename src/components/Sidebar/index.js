@@ -10,14 +10,14 @@ const Sidebar = ({isOpen, toggle}) => {
         </Icon>
         <SidebarWrapper>
             <SidebarMenu>
-                <SidebarLink to="report_missing" onClick={toggle}>Report missing</SidebarLink>
-                <SidebarLink to="map" onClick={toggle}>Map</SidebarLink>
-                <SidebarLink to="search" onClick={toggle}>Search</SidebarLink>
-                <SidebarLink to="signup" onClick={toggle}>Sign Up</SidebarLink>
+                <SidebarLink to="about" onClick={toggle}>Report missing</SidebarLink>
+                <SidebarLink to="discover" onClick={toggle}>Activities map</SidebarLink>
+                <SidebarLink to="service" onClick={toggle}>Search</SidebarLink>
+                <SidebarLink to="signup" onClick={toggle}>Sign up</SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
                 <SidebarRoute to="/signin">
-                    Sign In
+                    Log in
                 </SidebarRoute>
             </SideBtnWrap>
         </SidebarWrapper>
