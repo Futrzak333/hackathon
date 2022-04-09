@@ -23,7 +23,7 @@ export const FooterContainer = styled.footer`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1100px;
+    max-width: auto;
     margin: 0 auto; 
 `;
 
