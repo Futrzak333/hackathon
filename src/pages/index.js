@@ -5,10 +5,9 @@ import Sidebar from '../components/Sidebar'
 import {homeObjOne,homeObjTwo,homeObjThree,obj4} from '../components/InfoSection/Data';
 import InfoSection from '../components/InfoSection';
 //import Footer from '../components/Footer'
-//import Services from '../components/Services'
+import Services from '../components/Services'
 
-
-const Home = () => {
+ const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => {
@@ -22,7 +21,7 @@ const Home = () => {
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
-      {/*<Services/>*/}
+      <Services />
       <InfoSection {...homeObjThree} />
       <InfoSection {...obj4} />
       {/*<Footer/>*/}

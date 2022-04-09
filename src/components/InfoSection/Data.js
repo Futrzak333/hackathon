@@ -16,49 +16,53 @@ export const homeObjOne = {
 }; 
 
 export const homeObjTwo = {
+
     id: 'discover',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     topLine: 'Premium Bank',
     headline: 'Unlimited Transactions with zero fees',
     description: 'Get accsess to our exlusive....',
     imgStart: true,
+    buttonLabel: 'Report now',
     img: require('../../images/db.svg'),
     alt: 'Find more',
     dark: true,
-    primary: false,
-    darkText: true
+    primary: true,
+    darkText: false
 }; 
 
 export const homeObjThree = {
     id: 'service',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     topLine: 'Premium Bank',
     headline: 'Unlimited Transactions with zero fees',
     description: 'start now.',
-    imgStart: false,
+    buttonLabel: 'Report now',
+    imgStart: true,
     img: require('../../images/db.svg'),
     alt: 'Car',
     dark: true,
-    primary: false,
-    darkText: true
+    primary: true,
+    darkText: false
 };
 
 export const obj4 = {
     id: 'signup',
     lightBg: true,
-    lightText: false,
+    lightText: true ,
     lightTextDesc: false,
     topLine: 'Support',
     headline: 'Sign up to support us!',
     description: 'start now.',
-    imgStart: false,
+    buttonLabel: 'Report now',
+    imgStart: true,
     img: require('../../images/db.svg'),
     alt: 'Car',
-    dark: true,
+    dark: false,
     primary: false,
     darkText: true
 };
