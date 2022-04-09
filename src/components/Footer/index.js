@@ -10,11 +10,11 @@ const Footer = () => {
         <FooterLinksWrapper>
             <FooterLinkItems>
                 <FooterLinkTitle>About us</FooterLinkTitle> 
-                    <FooterLink to="/signin">how?</FooterLink> 
-                    <FooterLink to="/signin">testimonia</FooterLink> 
-                    <FooterLink to="/signin">careers?</FooterLink> 
-                    <FooterLink to="/signin">investors us</FooterLink> 
-                    <FooterLink to="/signin">terms?</FooterLink>  
+                    <FooterLink to="/signin">Contact</FooterLink> 
+                    <FooterLink to="/signin">Job Offer</FooterLink> 
+                    <FooterLink to="/signin">Employees</FooterLink> 
+                    <FooterLink to="/signin">Investors</FooterLink> 
+                    <FooterLink to="/signin">Socials</FooterLink>  
             </FooterLinkItems>
         </FooterLinksWrapper>
     </FooterLinksContainer>

@@ -86,6 +86,9 @@ const Navbar = ({toggle}) => {
         <NavBtn>
                     <NavBtnLink to="/signin">Log in</NavBtnLink>
                 </NavBtn>
+                <NavBtn>
+                    <NavBtnLink to="/qrcode">QRCode</NavBtnLink>
+                </NavBtn>
                 
       </NavMenu>
       </NavbarContainer>

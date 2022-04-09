@@ -19,6 +19,9 @@ const Sidebar = ({isOpen, toggle}) => {
                 <SidebarRoute to="/signin">
                     Log in
                 </SidebarRoute>
+                <SidebarRoute to="/qrcode">
+                    QRCode
+                </SidebarRoute>
             </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>
