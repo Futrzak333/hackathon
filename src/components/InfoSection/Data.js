@@ -1,3 +1,8 @@
+import mySvg1 from './raport.svg'
+import mySvg2 from './disable.svg'
+import mySvg3 from './learn.svg'
+import mySvg4 from './support.svg'
+
 export const homeObjOne = {
     id: 'about',
     lightBg: true,
@@ -8,7 +13,7 @@ export const homeObjOne = {
     description: 'We will ask you some questions',
     imgStart: true,
     buttonLabel: 'Report now',
-    img: require('../../images/report.png'),
+    img: mySvg1,
     alt: 'Car',
     dark: true,
     primary: true,
@@ -26,7 +31,7 @@ export const homeObjTwo = {
     description: 'Help us right now!',
     imgStart: true,
     buttonLabel: 'Find more',
-    img: require('../../images/disabled.png'),
+    img: mySvg2,
     alt: 'Find more',
     dark: true,
     primary: true,
@@ -43,7 +48,7 @@ export const homeObjThree = {
     description:'',
     buttonLabel: 'Find more',
     imgStart: true,
-    img: require('../../images/learn.png'),
+    img: mySvg3,
     alt: 'Car',
     dark: true,
     primary: true,
@@ -60,7 +65,7 @@ export const obj4 = {
     description: '',
     buttonLabel: 'Sign up now',
     imgStart: true,
-    img: require('../../images/support.png'),
+    img: mySvg4,
     alt: 'Car',
     dark: true,
     primary: true,
