@@ -1,7 +1,9 @@
 import { useState } from 'react';
- 
+
+
+
 export default function Form() {
- 
+
   // States for registration
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');

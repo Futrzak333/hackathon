@@ -1,4 +1,4 @@
-.Signin {
+.Form {
     text-align: center;
     background-color:green;
   }
@@ -43,7 +43,7 @@
   .success{
     display: block;
     background-color: lightblue;
-    color: black;
+    color: rgb(121, 8, 8);
     width: fit-content;
     height: 50px;
     padding: 5px;
