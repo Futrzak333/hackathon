@@ -25,13 +25,13 @@ const onHover = () => {
                 linijek
             </HeroP>
             <HeroBtnWrapper>
-                <Button to='signup'
+                <Button to='discover'
                 onMouseEnter={onHover}
                 onMouseLeave={onHover}
                 primary = 'true'
                 dark = 'true'
                 >
-                    Get started {hover ? <ArrowForward /> : <ArrowRight/>}
+                    Check our activities {hover ? <ArrowForward /> : <ArrowRight/>}
                 </Button>
             </HeroBtnWrapper>
         </HeroContent>
