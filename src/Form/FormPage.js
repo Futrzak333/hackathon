@@ -7,7 +7,7 @@ export default function Form() {
   const [lname, setlName] = useState('');
   const [email, setEmail] = useState('');
   const [place, setPlace] = useState(''); 
-  const [number, setNumbere] = useState(''); 
+  const [number, setNumber] = useState(''); 
   const [age, setAge] = useState('');
  
   // States for checking the errors
@@ -34,7 +34,7 @@ export default function Form() {
     setSubmitted(false);
   };
   const handleNumber = (e) => {
-    setPlace(e.target.value);
+    setNumber(e.target.value);
     setSubmitted(false);
   };
  
@@ -97,15 +97,23 @@ export default function Form() {
           value={fname} type="text" />
             <label className="label">Last Name</label>
         <input onChange={handlelName} className="input"
-          value={fname} type="text" />
+          value={lname} type="text" />
  
         <label className="label">Email</label>
         <input onChange={handleEmail} className="input"
-          value={email} type="email" />
+          value={email} type="email" /> 
+
+        <label className="label">Place</label>
+        <input onChange={handlePlace} className="input"
+          value={place} type="text" />
+
+        <label className="label">Number</label>
+        <input onChange={handleNumber} className="input"
+          value={number} type="text" />
  
         <label className="label">Age</label>
         <input onChange={handleAge} className="input"
-          value={age} type="number" />
+          value={age} type="text" />
  
         <button onClick={handleSubmit} className="btn" type="submit">
           Submit
