@@ -1,19 +1,14 @@
 import React from "react"; 
+import Form from './Form'
 
-const SigninPage = () => {
+const Signin = () => {
 
 return(
-    <div>
-
-    <h1>Rejestracja</h1>
-
+    <div className="Signin">
+      <Form />
     </div>
-
-
-
-
 )
 
 } 
 
-export default SigninPage
+export default Signin
