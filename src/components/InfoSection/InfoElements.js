@@ -2,14 +2,13 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
     color:#fff;
-    background: ${({lightBg}) => (lightBg ? 'grey' : 'black')}; 
+    background: ${({lightBg}) => (lightBg ? '#C7C7C7' : 'black')}; 
 
     @media screen and (max-width: 768px) {
     padding 100px 0;
 }
 `;
 
-/*background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '010606')}; -- tego niby nie ma byc tam wyzej*/
 
 export const InfoWrapper = styled.div`
 display: grid;
