@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
     color:#fff;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')}; 
+    background: ${({lightBg}) => (lightBg ? 'grey' : 'black')}; 
 
     @media screen and (max-width: 768px) {
     padding 100px 0;
@@ -83,7 +83,7 @@ max-width:440px;
 margin-bottom: 35px;
 font-size: 18px;
 line-height: 24px;
-color: ${({darkText}) => (darkText? '#010606' : '#fff')}
+color: ${({darkText}) => (darkText? 'black' : 'white')}
 `;
 
 /*color: ${({darkText}) => (darkText? '#010606' : '#fff')}*/

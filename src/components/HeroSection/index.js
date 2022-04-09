@@ -17,12 +17,10 @@ const onHover = () => {
         </HeroBg>
         <HeroContent>
             <HeroH1>
-                Środek duzego tekstu
+                Search for your relatives and help people in your neighbourhood.
             </HeroH1>
             <HeroP>
-                lalala
-                wiele
-                linijek
+                We hope our website will come in handy.
             </HeroP>
             <HeroBtnWrapper>
                 <Button to='discover'

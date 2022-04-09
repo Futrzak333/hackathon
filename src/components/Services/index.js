@@ -13,19 +13,19 @@ export const Services = () => {
                     
                         <ServicesIcon src={Icon1}/>
                         <h2>Register</h2>
-                        <ServicesH2>To być poinformowanym o możliwości pomocy potrzebującym w okolicy</ServicesH2>
+                        <ServicesH2>You can help people in need in your area!</ServicesH2>
                     </ServicesCard>
                     <ServicesCard>
                     
                         <ServicesIcon src={Icon2}/>
-                        <h2>Wykorzystujemy najnowsze technologie</h2>
-                        <ServicesH2>Współpracujemy z służbami, mamy w ofercie opaski QR - we no to opisz </ServicesH2>
+                        <h2>We use State-Of-The-Art Technologies.</h2>
+                        <ServicesH2>Our organization cooperates with the services. We generate special Id QR codes bands. In case of getting lost or separation, the band contains all of the necessary data. </ServicesH2>
                     </ServicesCard>
                     <ServicesCard>
                     
                         <ServicesIcon src={Icon3}/>
-                        <h2>Wprowadzamy najnowsze osiągnięcia naukowe</h2>
-                        <ServicesH2>Z pomocą algorytmów AI, przeszukujemy portale społecznościowe, na bieżąco monitorujemy nowe zgłoszenia w sieci </ServicesH2>
+                        <h2>We implement the newest technological achivements of IT.</h2>
+                        <ServicesH2>Thanks to our use of AI we are able to searching trough the social services and finding missing people. </ServicesH2>
                     </ServicesCard>
             </ServicesWrapper>
 
