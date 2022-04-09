@@ -1,35 +1,95 @@
-import React from 'react'
+import React, {useState,useEffect} from 'react';
+import {IconContext} from 'react-icons/lib'
+import {animateScroll as scroll} from 'react-scroll';
 import {FaBars} from 'react-icons/fa'
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements'
 
-const Navbar  = ({toggle}) => {
-  return (
-    <> 
-        <Nav>
-            <NavbarContainer>
-                <NavLogo to="/">Szukajka</NavLogo>
-                <MobileIcon onClick={toggle}>
-                    <FaBars />
-                </MobileIcon>
-                <NavMenu>
-                    <NavItem>
-                        <NavLinks to="report_missing">Report missing</NavLinks>
-                    </NavItem>
-                    <NavItem>
-                        <NavLinks to="map">Map</NavLinks>
-                    </NavItem>
-                    <NavItem>
-                        <NavLinks to="search">Search</NavLinks>
-                    </NavItem>
-                    <NavItem>
-                        <NavLinks to="signup">Sign up           .</NavLinks>
-                    </NavItem>
-                </NavMenu>
-                <NavBtn>
+const Navbar = ({toggle}) => {
+    const [scrollNav, setScrollNav] = useState(false)
+  
+    const changeNav = () =>{
+      if(window.scrollY >= 80){
+        setScrollNav(true)
+      } else {
+        setScrollNav(false)
+      }
+    }
+  
+    const toggleHome = () => {
+      scroll.scrollToTop();
+    }
+  
+  useEffect(()=>{
+    window.addEventListener('scroll',changeNav)
+  },[])
+  return(
+    <>
+    <IconContext.Provider value={{color: '#fff'}}>
+    <Nav scrollNav={scrollNav}>
+      <NavLogo to = '/' onClick={toggleHome}>
+        Jak to nazwać?
+        </NavLogo>
+      <MobileIcon onClick={toggle}>
+        <FaBars />
+      </MobileIcon>
+      <NavMenu>
+        <NavItem>
+          <NavLinks 
+          to='about'
+          smooth={true} 
+          duration={500} 
+          spy={true} 
+          exact='true'
+          offset={-80}
+          >
+            Report missing
+            </NavLinks>
+        </NavItem>
+        <NavItem>
+          <NavLinks 
+          to='discover'
+          smooth={true} 
+          duration={500} 
+          spy={true} 
+          exact='true'
+          offset={-80}
+          >
+            Map
+            </NavLinks>
+            </NavItem>
+            <NavItem>
+          <NavLinks 
+          to='service'
+          smooth={true} 
+          duration={500} 
+          spy={true} 
+          exact='true'
+          offset={-80}
+          >
+            Search
+            </NavLinks>
+            </NavItem>
+            <NavItem>
+            <NavLinks 
+          to='signup'
+          smooth={true} 
+          duration={500} 
+          spy={true} 
+          exact='true'
+          offset={-80}
+          >
+            Sign Up                        
+            </NavLinks>
+        </NavItem>
+
+        <NavBtn>
                     <NavBtnLink to="/signin">Sign In</NavBtnLink>
                 </NavBtn>
-            </NavbarContainer>
-        </Nav>
+
+      </NavMenu>
+
+    </Nav>
+    </IconContext.Provider>
     </>
   )
 };

@@ -1,5 +1,5 @@
 import React from 'react' 
-import Icon1 from '../../images/db.svg'
+import Icon1 from '../../images/data.svg'
 import Icon2 from '../../images/db.svg'
 import Icon3 from '../../images/db.svg'
 import {ServicesContainer,ServicesH1,ServicesWrapper,ServicesCard,ServicesIcon,ServicesH2,ServicesP} from './';
