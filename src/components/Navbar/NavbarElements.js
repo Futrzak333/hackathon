@@ -69,7 +69,7 @@ export const NavItem = styled.ul`
 `;
 
 export const NavLinks = styled(LinkS)`
-    color: #fff;
+    color: white;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -83,6 +83,7 @@ export const NavLinks = styled(LinkS)`
 `;
 
 export const NavBtn = styled.nav`
+    color: white;
     display: flex;
     align-items: center;
     align-right: -50px;
@@ -106,7 +107,7 @@ export const NavBtnLink = styled(LinkR)`
     background: #01bf71;
     white-space: nowrap;
     padding: 10px 22px;
-    color: #010606;
+    color: white;
     outline: none;
     border: none;
     cursor: pointer;
