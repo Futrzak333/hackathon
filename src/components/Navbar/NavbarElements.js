@@ -91,6 +91,15 @@ export const NavBtn = styled.nav`
         display: none;
     }
 `;
+export const NavBtn2 = styled.nav`
+    display: flex;
+    align-items: center;
+    align-right: -50px;
+
+    @media screen and (max-vidth: 768px) {
+        display: none;
+    }
+`;
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;

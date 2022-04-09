@@ -22,6 +22,9 @@ const Sidebar = ({isOpen, toggle}) => {
                 <SidebarRoute to="/qrcode">
                     QRCode
                 </SidebarRoute>
+                <SidebarRoute to="/Form">
+                    FormPage
+                </SidebarRoute>
             </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>
